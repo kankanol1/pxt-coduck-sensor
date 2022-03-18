@@ -1,25 +1,24 @@
 # PTX (Makecode) Blocks for the MonkMakes Sensor for micro:bit.
 
-For more information on the MonkMakes sensor, see: https://www.monkmakes.com/mb_sensor/
+
 
 
 ## Installation
 
 From your Blocks code editor, click _Advanced_ and then _Extensions_. Next, enter the url: 
 
-https://github.com/monkmakes/pxt-mm-sensor.git
+https://github.com/kankanol1/pxt-coduck-sensor.git
 
 into the search field at the top of the screen.
 
 Once the extension is added, you will find a new blocks category called _Sensor_
 
-![Sensor blocks category](https://github.com/monkmakes/pxt-sensor/blob/master/figs/blocks.png?raw=true)
 
 ## Examples
 
 First wire up your Sensor to your micro:bit like this.
 
-![Sensor blocks category](https://github.com/monkmakes/pxt-sensor/blob/master/figs/connecting.png?raw=true)
+![Sensor blocks category](https://github.com/kankanol1/pxt-coduck-sensor/blob/master/figs/connecting.png?raw=true)
 
 
 ### Detecting Claps
