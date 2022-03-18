@@ -7,13 +7,13 @@
 
 input.onButtonPressed(Button.A, function () {
     basic.showString("Sound=")
-    basic.showNumber(Sensor.soundLevel(AnalogPin.P0))
+    basic.showNumber(CoduckSensor.soundLevel(AnalogPin.P0))
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("Temp=")
-    basic.showNumber(Sensor.tempC(AnalogPin.P1))
+    basic.showNumber(CoduckSensor.tempC(AnalogPin.P1))
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showString("Light=")
-    basic.showNumber(Sensor.lightLevel(AnalogPin.P2))
+    basic.showNumber(CoduckSensor.lightLevel(AnalogPin.P2))
 })

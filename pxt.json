@@ -1,9 +1,10 @@
 {
-    "name": "pxt-sensor",
+    "name": "pxt-coduck-sensor",
     "version": "0.0.2",
-    "description": "PXT Extension for the MonkMakes Sensor for micro:bit",
+    "description": "Coduck 传感器",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -13,5 +14,12 @@
         "test.ts"
     ],
     "public": true,
-    "installedVersion": "workspace:d78d7e13-fd55-4297-02ce-1a484e48c657"
+    "targetVersions": {
+        "target": "4.1.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
